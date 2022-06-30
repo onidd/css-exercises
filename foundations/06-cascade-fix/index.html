@@ -6,6 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fix the Cascade</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      .para{
+        font-weight: bold;
+      }
+      .para.small-para{
+        font-weight: 400;
+      }
+      button#confirm-button.button.confirm{
+        background-color: green;
+        color: white;
+        border: 3px solid gray;
+        margin-top: 10px;
+      }
+      button#cancel-button.button.cancel{
+        font-weight: bold;
+        border: 3px solid gray;
+        margin-top: 10px;
+      
+      }
+      div.text{
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      div.text > div.text.child{
+        color: red;
+        font-size: 20px;
+        margin-top: 10px;
+      }
+    </style>
   </head>
   <body>
     <p class="para">I'm just a paragraph with red text!</p>
