@@ -6,12 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class and ID Selectors</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      :root{
+        --tako: pink; 
+      }
+      p.a{
+        font-size: 20px;
+        background-color: var(--tako);
+
+      }
+      div.b{
+        font-size: 40px;
+        color: blue;
+      }
+      p.c{
+        font-size: 30px;
+        background-color: var(--tako);
+        font-weight: 500;
+      }
+      div.d{
+        font-size: 25px;
+        background-color: lightgreen;
+        color: black;
+        font-weight: bold;
+      }
+      p.e{
+        background-color: var(--tako);
+        font-size: 15px;
+      }
+    </style>
   </head>
   <body>
-    <p>Number 1 - I'm a class!</p>
-    <div>Number 2 - I'm one ID.</div>
-    <p>Number 3 - I'm a class, but cooler!</p>
-    <div>Number 4 - I'm another ID.</div>
-    <p>Number 5 - I'm a class!</p>
+    <p class="a">Number 1 - I'm a class!</p>
+    <div class="b">Number 2 - I'm one ID.</div>
+    <p class="c">Number 3 - I'm a class, but cooler!</p>
+    <div class="d">Number 4 - I'm another ID.</div>
+    <p class="e">Number 5 - I'm a class!</p>
   </body>
 </html>
